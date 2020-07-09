@@ -22,5 +22,5 @@ void ft_is_negative(int n){
 	else {
 		ft_putchar('N');
 	}
-}
+ }
 
