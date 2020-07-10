@@ -13,11 +13,14 @@
 
 void ft_putchar(char c);
 
-void ft_print_numbers(void) {
+void ft_print_numbers(void) 
+{
 	char letter;
 
 	letter = 'z';
-	while(letter >= "a") {
+	while(letter >= "a") 
+	{
 		ft_putchar(letter);
-		letter --; }
+		letter --; 
+	}
 }
